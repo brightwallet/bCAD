@@ -371,14 +371,14 @@ contract TokenTimelock {
 
 
 /**
- * @title OMGToken
- * @dev Omise Go Token contract
+ * @title bCADToken
+ * @dev Brightwallet Token contract
  */
-contract OMGToken is PausableToken, MintableToken {
+contract bCADToken is PausableToken, MintableToken {
   using SafeMath for uint256;
 
-  string public name = "OMGToken";
-  string public symbol = "OMG";
+  string public name = "bCADToken";
+  string public symbol = "bCAD";
   uint public decimals = 18;
 
   /**
